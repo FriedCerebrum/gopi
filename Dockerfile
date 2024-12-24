@@ -32,7 +32,7 @@ COPY config.toml .
 RUN apk add --no-cache libc6-compat curl
 
 # Expose the port on which the app will run
-EXPOSE 8000
+EXPOSE 1111
 
 # Command to run the application with delay
 CMD ["sh", "-c", "sleep 10 && ./main"]

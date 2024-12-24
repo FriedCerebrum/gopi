@@ -21,7 +21,7 @@ services:
       context: .
     container_name: go_app
     ports:
-      - "8000:8000"
+      - "1111:1111"
     depends_on:
       - db
     environment:
